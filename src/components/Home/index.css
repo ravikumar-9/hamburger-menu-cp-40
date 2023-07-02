@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-card {
+  padding: 4px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

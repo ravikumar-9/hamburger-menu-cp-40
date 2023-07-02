@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.header-section {
+  background-color: #dcdcdc;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+}
+.logo-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.hamburger {
+  margin: 9px;
+  font-size: 30px;
+}
+.popup-content {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+.trigger-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.close-icon {
+  margin: 9px;
+  font-size: 30px;
+  margin-left: auto;
+  align-self: center;
+  margin-bottom: auto;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.home-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+  margin: 7px;
+}
+.home-icon {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.nav-link {
+  text-decoration: none;
+}
+.menu {
+  list-style-type: none;
+}
